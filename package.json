@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build:server": "webpack ",
-    "start:server": "node --inspect-brk dist/server.js",
+    "start:server": "node dist/server.js",
     "start": "npm run build:server & npm run start:server"
   },
   "author": "",
