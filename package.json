@@ -1,0 +1,24 @@
+{
+  "name": "sentry-express-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:server": "webpack ",
+    "start:server": "node --inspect-brk dist/server.js",
+    "start": "npm run build:server & npm run start:server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "ts-loader": "^8.0.5",
+    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "typescript": "^4.0.3",
+    "webpack": "^5.1.2",
+    "webpack-cli": "^4.0.0"
+  },
+  "dependencies": {
+    "@sentry/node": "^5.26.0"
+  }
+}
